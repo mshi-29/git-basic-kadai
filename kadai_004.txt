@@ -1,0 +1,59 @@
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial (main)
+$ mkdir git_challenge
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial (main)
+$ cd git_challenge
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/ma475/Desktop/samurai/git_tutorial/git_challenge/.git/
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git add "C:\Users\ma475\Desktop\samurai\git_tutorial\git_challenge"
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git add "C:\Users\ma475\Desktop\samurai\git_tutorial\git_challenge\hello_world.txt.txt"
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git commit -m "hello,world!"
+[main (root-commit) 699bb7e] hello,world!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt.txt
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git log
+commit 699bb7e75853a5487502c3372602b0cd23dc90ae (HEAD -> main)
+Author: mshi-29 <ma4759.1429@gmail.com>
+Date:   Mon Mar 18 16:35:42 2024 +0900
+
+    hello,world!
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git commit -m "こんにちは、世界!"
+On branch main
+nothing to commit, working tree clean
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$ git log
+commit 699bb7e75853a5487502c3372602b0cd23dc90ae (HEAD -> main)
+Author: mshi-29 <ma4759.1429@gmail.com>
+Date:   Mon Mar 18 16:35:42 2024 +0900
+
+    hello,world!
+
+ma475@LAPTOP-1NI0C7E6 MINGW64 ~/Desktop/samurai/git_tutorial/git_challenge (main)
+$
